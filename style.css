@@ -110,7 +110,7 @@ header{
     height: auto;
     display: block;
 }
-.bot_intro_1
+.bot_intro_mod
 {
     display: flex;
     flex-direction: column;
@@ -141,7 +141,8 @@ header{
 {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20%;
+    padding-bottom: 55%;
     color: white;
+    font-size: x-large;
     font-weight: 800;
 }
