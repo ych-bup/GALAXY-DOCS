@@ -21,11 +21,7 @@ body
     font-family: roboto;
     background-color: black;
 }
-.title2
-{
-    color: white;
-    font-weight: 800;
-}
+
 /*side bar*/
 .blind
 {
@@ -82,6 +78,11 @@ header{
     padding: 40px 0;
     border-bottom: 1px solid #000000;
 }
+.title1
+{
+    color: white;
+    font-weight: 800;
+}
 
 /*bot intro*/
 .bot_intro_0
@@ -100,11 +101,47 @@ header{
     padding-top: 100%;
     color: white;
 }
+
+
 .bot_icon
 {
     text-align: center;
-    width: auto;
+    max-width: 100%;
     height: auto;
-    top: auto;
-    left: auto;
+    display: block;
+}
+.bot_intro_1
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 1270;
+    font-size: 600%;
+    font-weight: 800;
+    padding-top: 25%;
+    color: white;
+    float: left;
+}
+.title3
+{
+    color: white;
+    font-weight: 800;
+    padding-top: 10%;
+    width: 1000px;
+}
+.moderate_ex
+{
+    float:right;
+    padding-top: 30%;
+    position: absolute;
+    width: 100px;
+    left: 1700px;
+}
+.title2
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20%;
+    color: white;
+    font-weight: 800;
 }
