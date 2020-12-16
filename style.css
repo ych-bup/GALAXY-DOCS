@@ -135,7 +135,7 @@ header{
     padding-top: 30%;
     position: absolute;
     width: 100px;
-    left: 1700px;
+    left: 1900px;
 }
 .title2
 {
@@ -145,4 +145,35 @@ header{
     color: white;
     font-size: x-large;
     font-weight: 800;
+    width: 50px;
+}
+.bot_intro_fun
+{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 1270;
+    font-size: 600%;
+    font-weight: 800;
+    padding-top: 75%;
+    color: white;
+    float: right;
+}
+.fun_ex
+{
+    color: white;
+    float:left;
+    padding-top: 82%;
+    position: absolute;
+    width: 100px;
+}
+.title4
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 55%;
+    color: white;
+    font-size: x-large;
+    font-weight: 800;
+    width: 50px;
 }
