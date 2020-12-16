@@ -18,6 +18,7 @@ a:hover { color: white; text-decoration: none;}
 
 body
 {
+    font-family: roboto;
     background-color: black;
 }
 .title2
@@ -63,8 +64,9 @@ header{
     background-color: black;
     color: white;
     position: absolute;
+
     left: -500px;
-    top: 58px;
+    top: 50px;
     bottom: 0;
     border-right: 1px solid black;
     width: 500px;
@@ -83,7 +85,24 @@ header{
     color: white;
     opacity: 0;
 }
+.bot_intro_0
+{
+    font-size: 900%;
+    font-weight: 800;
+    padding-top: 0%;
+    color: white; 
+}
 .bot_intro
 {
+    font-size: 900%;
+    font-weight: 800;
+    padding-top: 100%;
     color: white;
+}
+.bot_icon
+{
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
 }
