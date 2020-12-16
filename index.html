@@ -5,84 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Ich.Bot Official Docs</title>
-    <style>
-        a:link { color: white; text-decoration: none;}
-        a:visited { color: white; text-decoration: none;}
-        a:hover { color: white; text-decoration: none;}
-        
-        @media screen and (min-width: 800px){
-            .infoAndNextVideo
-            {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        body
-        {
-            background-color: black;
-        }
-        .title2
-        {
-            color: white;
-            font-weight: 800;
-        }
-        .blind
-        {
-            position: absolute;
-            top:0;
-            left:0;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0,0,0,0);
-        }
-        header{
-            border-bottom: 1px solid #000000;
-        }
-        .side_toggle_btn::before
-        {
-            color: #ffffff;
-            content: "▶";
-            display: inline-block;
-            width: 50px;
-            line-height: 50px;
-            font-size: 24px;
-            text-align: center;
-            border-right: 1px solid #000000;
-        }
-        .side_input:checked + .side_toggle_btn::before
-        {
-            content: "◀";
-        }
-        .side_input:checked ~ .side_list
-        {
-            left: 0;
-        }
-        .side_list
-        {
-            color: white;
-            position: absolute;
-            left: -500px;
-            top: 58px;
-            bottom: 0;
-            border-right: 1px solid #ffffff;
-            width: 500px;
-            font-size: 24px;
-            transition: 0.3s ease-in;
-        }
-        .sdie_link
-        {
-            display: block;
-            text-align: center;
-            padding: 40px 0;
-            border-bottom: 1px solid #000000;
-        }
-
-    </style>
+    <script>
+        AOS.init();
+    </script>
 </head>
 <body>
     <div class="infoAndNextVideo">
@@ -94,6 +22,13 @@
                 <a href="https://discord.gg/3EHWced" class="title2">Official Discord Server</a>
             </div>
         </header>
+        <div class="bot_icon">
+            <img src="image/galaxy-11098_1280.jpg">
+            <img src="image/galaxy-11098_1280.jpg" alt="">
+        </div>
+        <div class="bot_intro">
+            <div data-aos="fade-up">Multi Purpose Discord ChatBot</div>
+        </div>
     </div>
 </body>
 </html>
