@@ -26,6 +26,7 @@ body
     color: white;
     font-weight: 800;
 }
+/*side bar*/
 .blind
 {
     position: absolute;
@@ -80,11 +81,8 @@ header{
     padding: 40px 0;
     border-bottom: 1px solid #000000;
 }
-.hideme
-{
-    color: white;
-    opacity: 0;
-}
+
+/*bot intro*/
 .bot_intro_0
 {
     font-size: 900%;
