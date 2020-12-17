@@ -18,7 +18,7 @@ a:hover { color: white; text-decoration: none;}
 
 body
 {
-    font-family: roboto;
+    font-family: AppleSDGothicNeoEB00;
     background-color: black;
 }
 
@@ -136,7 +136,7 @@ header{
 {
     float:right;
     position: absolute;
-    width: 100px;
+    width: 5%;
     left: 90%;
 }
 .title2
@@ -169,15 +169,25 @@ header{
     color: white;
     float:left;
     position: absolute;
-    width: 100px;
+    width: 10%;
 }
-.title4
+.bot_info
 {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 55%;
-    color: white;
-    font-size: x-large;
+    padding-top: 50%;
+}
+.bot_intro_info
+{
+    text-align: left;
+    width: 1270;
+    font-size: 600%;
     font-weight: 800;
-    width: 50px;
+    color: white;
+    float: left;
+}
+.info_ex
+{
+    float:right;
+    position: absolute;
+    width: 5.5%;
+    left: 90%;
 }
