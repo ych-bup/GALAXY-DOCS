@@ -183,6 +183,7 @@ header{
 }
 .fun_ex
 {
+    padding-top: 12%;
     color: white;
     float:left;
     position: absolute;
@@ -222,4 +223,27 @@ header{
     font-weight: 800;
     color: white;
     float: right;
+}
+.text_ex
+{
+    padding-top: 7%;
+    float: left;
+    position: absolute;
+    width: 7%;
+}
+.now
+{
+    text-align: center;
+    font-size: 800%;
+    font-weight: 800;
+    padding-top: 75%;
+    color: white;
+}
+.invite_bot
+{
+    max-width: 7%;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    display: block;
 }
