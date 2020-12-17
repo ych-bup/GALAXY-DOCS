@@ -18,8 +18,23 @@ a:hover { color: white; text-decoration: none;}
 
 body
 {
+    max-width: 100%;
+    height: auto;
     font-family: AppleSDGothicNeoEB00;
     background-color: black;
+    box-sizing: border-box;
+}
+
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+@media ( max-width: 480px ){
+    div{
+        width: auto;
+    }
 }
 
 /*side bar*/
@@ -36,6 +51,8 @@ body
 }
 header{
     border-bottom: 1px solid #000000;
+    position: fixed;
+    top:0;
 }
 .side_toggle_btn::before
 {
@@ -58,7 +75,7 @@ header{
 }
 .side_list
 {
-    background-color: black;
+    background-color: gray;
     color: white;
     position: absolute;
 
@@ -130,7 +147,7 @@ header{
     color: white;
     font-weight: 800;
     padding-bottom: 10%;
-    width: 1000px;
+    width: 800px;
 }
 .moderate_ex
 {
@@ -190,4 +207,19 @@ header{
     position: absolute;
     width: 5.5%;
     left: 90%;
+}
+.bot_text
+{
+    padding-top: 60%;
+}
+.bot_intro_text
+{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 1270;
+    font-size: 600%;
+    font-weight: 800;
+    color: white;
+    float: right;
 }
