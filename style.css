@@ -110,6 +110,10 @@ header{
     height: auto;
     display: block;
 }
+.bot_mod
+{
+    padding-top: 25%;
+}
 .bot_intro_mod
 {
     display: flex;
@@ -118,7 +122,6 @@ header{
     width: 1270;
     font-size: 600%;
     font-weight: 800;
-    padding-top: 25%;
     color: white;
     float: left;
 }
@@ -126,13 +129,12 @@ header{
 {
     color: white;
     font-weight: 800;
-    padding-top: 10%;
+    padding-bottom: 10%;
     width: 1000px;
 }
 .moderate_ex
 {
     float:right;
-    padding-top: 30%;
     position: absolute;
     width: 100px;
     left: 90%;
@@ -146,6 +148,10 @@ header{
     font-size: x-large;
     font-weight: 800;
     width: 50px;
+}
+.bot_fun
+{
+    padding-top: 25%;
 }
 .bot_intro_fun
 {
@@ -163,7 +169,7 @@ header{
 {
     color: white;
     float:left;
-    padding-top: 82%;
+    padding-top: 25%;
     position: absolute;
     width: 100px;
 }
