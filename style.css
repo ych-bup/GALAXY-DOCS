@@ -151,7 +151,7 @@ header{
 }
 .bot_fun
 {
-    padding-top: 25%;
+    padding-top: 50%;
 }
 .bot_intro_fun
 {
@@ -161,7 +161,6 @@ header{
     width: 1270;
     font-size: 600%;
     font-weight: 800;
-    padding-top: 25%;
     color: white;
     float: right;
 }
@@ -169,7 +168,6 @@ header{
 {
     color: white;
     float:left;
-    padding-top: 25%;
     position: absolute;
     width: 100px;
 }
