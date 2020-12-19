@@ -231,11 +231,52 @@ header{
     position: absolute;
     width: 7%;
 }
-.now
+.now    
 {
     text-align: center;
     font-size: 800%;
     font-weight: 800;
     padding-top: 75%;
+    width: auto;
     color: white;
+}
+.invite_intro
+{
+    z-index: 6;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bot_invite_0
+{
+    color: white;
+    float: left;
+    position: relative;
+    display: block;
+    margin-left:35%;
+    max-width: 50%;
+} 
+.bot_invite
+{
+    float: right;
+    position: relative;
+    display: block;
+    padding: 0%;
+    margin-right: 35%;
+    max-width: 10%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out; 
+    overflow: hidden;
+} 
+.bot_invite:hover
+{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
