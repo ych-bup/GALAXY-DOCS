@@ -1,2 +1,2 @@
 # Ich-DOCS
-Ich.BOT official documents
+Ich.BOT official documentation
