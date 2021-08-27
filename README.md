@@ -1,2 +1,2 @@
-# Ich-DOCS
-Ich.BOT official documentation
+# GALAXY-DOCS
+GALAXY bot official documentation
